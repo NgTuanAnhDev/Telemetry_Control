@@ -1,11 +1,25 @@
-🏆 ESP32 Web Control & Telemetry Library
-📡 Real-time control & telemetry display for ESP32 via WebSockets
+# 🚀 ESP32 Web Control & Telemetry Library  
 
+📡 **Real-time control & telemetry display for ESP32 via WebSockets**  
 
-📌 Features:
-✅ ESP32 serves a web-based control panel
-✅ Supports real-time data updates using WebSocket
-✅ Receives keyboard & gamepad input for remote control
-✅ Displays telemetry data in a clean interface
-✅ WiFi SoftAP mode for standalone operation
-✅ Perfect for robotics, automation, IoT projects
+![ESP32 Web Control](https://user-images.githubusercontent.com/12345678/example-image.png)  
+
+## 📌 Features  
+✅ ESP32 serves a **web-based control panel**  
+✅ Supports **real-time data updates** using **WebSocket**  
+✅ Receives **keyboard & gamepad input** for remote control  
+✅ Displays **telemetry data** in a clean interface  
+✅ **WiFi SoftAP mode** for standalone operation  
+✅ Perfect for **robotics, automation, IoT projects**  
+
+---
+
+## 📥 Installation  
+
+### 🛠 **PlatformIO**  
+1. Add this library to your `platformio.ini`:  
+```ini
+lib_deps = 
+    ESPAsyncWebServer
+    AsyncTCP
+    ArduinoJson
