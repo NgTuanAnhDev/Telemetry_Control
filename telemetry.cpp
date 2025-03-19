@@ -125,6 +125,14 @@ void Telemetry::addData(const char* key, float value) {
     jsonData[key] = value;
 }
 
+void Telemetry::addData(const char* key, const char* value) {
+    jsonData[key] = value;
+}
+
+void Telemetry::addData(const char* key, String value) {
+    jsonData[key] = value.c_str();
+}
+
 void Telemetry::update() {
     if (millis() - lastUpdateTime >= updateInterval && clientCount > 0) {
         String jsonStr;

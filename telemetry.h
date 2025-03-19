@@ -27,6 +27,8 @@ class Telemetry {
     Telemetry();
     void begin(const char* ssid, const char* password);
     void addData(const char* key, float value);
+    void addData(const char* key, const char* value);
+    void addData(const char* key, String value);
     void update();
     String getKeyboardKey();
     bool getGamepadButton(const char* button);
