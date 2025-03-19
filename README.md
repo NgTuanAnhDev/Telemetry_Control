@@ -2,7 +2,7 @@
 
 📡 **Real-time control & telemetry display for ESP32 via WebSockets**  
 
-![ESP32 Web Control](https://user-images.githubusercontent.com/12345678/example-image.png)  
+![ESP32 Web Control](https://raw.githubusercontent.com/NgTuanAnhDev/Telemetry_Control/refs/heads/main/Screenshot.png)  
 
 ## 📌 Features  
 ✅ ESP32 serves a **web-based control panel**  
